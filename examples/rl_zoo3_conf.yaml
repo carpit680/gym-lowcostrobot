@@ -23,5 +23,5 @@ tqc:
 ReachCube-v0:
   n_timesteps: !!float 1e7
   policy: 'MultiInputPolicy'
-  frame_stack: 1  # Disable frame stacking if not needed
+  frame_stack: 3  # Disable frame stacking if not needed
   use_sde: True
